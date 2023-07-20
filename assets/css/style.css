@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Raleway:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgb(60, 181, 252),rgb(107, 107, 248), rgb(114, 114, 243));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.container{
+    position: relative;
+        top: 30;
+    max-width: 640px;
+    padding: 10px;
+    margin: auto;
+    background: #ffffff00;
+    border:1px solid rgb(252, 252, 255);
+    border-radius: 10px;
+    box-shadow: 5px 8px 25px rgb(0, 0, 0);
+    backdrop-filter: blur(5.5px);
+    font-size: 23px;
+    zoom: 85%;
+    
+}
+.container h1{
+    text-align: center;
+    color: rgb(4, 4, 12);
+}
+.imagem{
+    width: 600px;
+    height: 330px;
+}
+.display{
+    border-bottom:2px solid rgb(86, 69, 163);
+    margin: 5px;
+    max-width: 640px;
+    min-height: 40px;
+}
+form input{
+    background-color: rgba(34, 31, 31, 0.336);
+    backdrop-filter: blur(4.4);
+    height: 15px;
+    padding: 15px;
+    
+    border-radius: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+form input:focus{
+    outline: 1px solid  rgb(77, 241, 241);
+    box-shadow: 1px 2px 25px rgb(40, 181, 216);
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button{
+    background: rgb(78, 78, 240);
+    color:white;
+    font-size: 25px;
+    font-family: 'Agdasima', sans-serif;
+    height: 50%;
+    border-radius: 10px;
+    border:none;
+    
+
+}
+
+form button:hover{
+    background: rgb(54, 54, 238);
+    cursor: pointer;
+
+}
+footer{
+    position: relative;    
+    text-align: center;
+    color:rgb(10, 8, 8)
+}
+
+@media screen and (max-width: 1400px){
+    
+    .container{
+        width: 500px;
+    }
+
+    .imagem{
+        width: 480px;
+    }
+}
