@@ -24,7 +24,7 @@ body{
     box-shadow: 5px 8px 25px rgb(0, 0, 0);
     backdrop-filter: blur(5.5px);
     font-size: 23px;
-    zoom: 85%;
+    zoom: 80%;
     
 }
 .container h1{
@@ -35,11 +35,15 @@ body{
     width: 600px;
     height: 330px;
 }
-.display{
+.scroll{
+    position: static;
+    display: block;
     border-bottom:2px solid rgb(86, 69, 163);
     margin: 5px;
+    overflow: auto;
+    scroll-behavior: smooth;
     max-width: 640px;
-    min-height: 40px;
+    height: 70px;
 }
 form input{
     background-color: rgba(34, 31, 31, 0.336);
@@ -58,13 +62,13 @@ form input:focus{
     box-shadow: 1px 2px 25px rgb(40, 181, 216);
 }
 
-form input, form label, form button{
+form input, form label, form button, .reload{
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
 
-form button{
+form button, .reload{
     background: rgb(78, 78, 240);
     color:white;
     font-size: 25px;
@@ -76,7 +80,7 @@ form button{
 
 }
 
-form button:hover{
+.form button:hover, .reload:hover{
     background: rgb(54, 54, 238);
     cursor: pointer;
 
