@@ -5,4 +5,4 @@ Interação de Usuário: Através da utilização de elementos HTML como campos 
 
 Manipulação do DOM: O JavaScript é empregado para manipular elementos do DOM, permitindo a captura dos valores inseridos pelo usuário, a realização do cálculo do IMC com base nesses valores e a exibição dos resultados em tempo real.
 
-Apresentação Dinâmica: Através da alteração de elementos HTML em resposta às ações do usuário, a aplicação apresenta os resultados de forma dinâmica, proporcionando uma experiência interativa e imersiva.
+Apresentação Dinâmica: Através da alteração de elementos HTML em resposta às ações do usuário, a aplicação apresenta os resultados na tela.
