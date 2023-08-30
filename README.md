@@ -1,5 +1,4 @@
 # modelo
-Calculadora de IMC
 A aplicação desenvolvida é uma calculadora de IMC, um indicador fundamental da saúde física de um indivíduo. Ela ilustra a aplicação de conceitos de lógica de programação e do DOM do JavaScript para permitir aos usuários inserir dados, efetuar o cálculo do IMC e visualizar os resultados de maneira dinâmica e interativa.
 
 Interação de Usuário: Através da utilização de elementos HTML como campos de entrada e botões interativos, os usuários têm a capacidade de inserir informações relevantes, como peso e altura.
